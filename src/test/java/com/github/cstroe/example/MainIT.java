@@ -16,6 +16,5 @@ public class MainIT {
         HttpResponse<String> response = Unirest.get("http://localhost:8080").asString();
         assertThat(response.getStatus(), is(equalTo(200)));
         assertThat(response.getBody(), containsString("Hello"));
-        fail();
     }
 }
