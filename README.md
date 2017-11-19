@@ -11,7 +11,7 @@ The app under test is packaged into a docker container via the `Dockerfile`
 ```
 
 ## Links
-* [https://github.com/cstroe/gradle-scala-docker-compose-example-project](gradle-scala-docker-compose-example-project) - The same thing that this project does, but with Gradle.
+* [gradle-scala-docker-compose-example-project](https://github.com/cstroe/gradle-scala-docker-compose-example-project) - The same thing that this project does, but with Gradle.
 * [dockerfile-maven-plugin](https://www.github.com/spotify/dockerfile-maven) - Invokes `docker` to build this app's container
 * [docker-compose-maven-plugin](https://github.com/dkanejs/docker-compose-maven-plugin) - Invokes `docker-compose` to start a test environment
 * [SO maven-jar-plugin finalName](https://stackoverflow.com/questions/4238944/controlling-maven-final-name-of-jar-artifact) - Rename final artifact
