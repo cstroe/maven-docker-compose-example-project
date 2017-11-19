@@ -7,7 +7,7 @@ The app under test is packaged into a docker container via the `Dockerfile`
 ## Usage
 
 ```
-./mvnw clean package
+./mvnw clean verify
 ```
 
 ## Links
